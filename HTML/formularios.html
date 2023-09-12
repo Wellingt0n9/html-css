@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">home</a>
+    </nav>
+    <p>form e a tag de formulario <br>
+    vamos dar um modelo para cada tipo de formulario colocar de diferentes maneira para ficar facil o entendimento</br>
+    input e a tag para colocarmos os quadros de formularios que podem ser modificados atraves das tag
+    type, placeholder </br>
+    label e outra maneira de colocarmos um texto como se fosse a intrução do formulario </p> 
+    <h1>Formularios</h1>
+    <form>
+        <p>exemplo para a usuario colocar nome</p>
+        <input type="text" placeholder="coloque seu Nome"/>
+        
+        <p>exemplo de tag campo para email</p>
+        <label for="email">Seu email</label>
+        <input type="email" type="email"/>
+        
+        <p>exemplo para o usuario colocar o telefon</p>
+        <input type="tell" name="" placeholder="Seu telefone">
+
+        <P>exemplo para fazer com que o form fique com numeros para ser selecionado </p>
+        <input type="number" max="90" min="1" step="2">
+
+        <p>exemplo para anexar arquivos</p>
+        <input type="file"/>
+
+        <p>exemplo para fazer com selecione uma cor</p>
+        <input type="color"/>
+
+        <p>exemplo para colocar caixas de seleção</p>
+        <input type="checkbox" id="checkbox-termos"/> 
+        <label for="checkbox-termos">Aceito os termos</label>
+        
+        <p>exemplo para  colocarmos capos de pesquisa ou perguntas</p>
+        <br>
+        <p>
+            Qual sua cor favorita?
+        </p>
+        <input type="radio" name= "cor-favorita" id="vermelho"> <label for="vermelho">vermelho</label>
+        <input type="radio" name= "cor-favorita" id="Azul"> <label for="Azul">Azul</label>
+        <input type="radio" name= "cor-favorita" id="Verde"> <label for="Verde">Verde</label>
+        <br>
+
+        <p>Select e uma tag que pode substituir o input</p>
+        <label for="">Qual é o seu fime favorito</label>
+        <select >
+            <option>filme A</option>
+            <option>filme B</option>
+            <option>filme C</option>
+        </select>
+
+        <p>exemplo de caixa de texto serve para fidbaks e opinioes</p>
+        <textarea>
+        </textarea>
+        <p>exemplo de como</p>
+        <button tipy="submit"> 
+            enviar
+        </button>
+        <button tipy="reset">
+            limpar
+        </button>
+    </form>
+</body>
+</html>
