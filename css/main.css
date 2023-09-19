@@ -1,12 +1,9 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
-header {
-    ;
-}
 
 body > header{
     background-color: #2f3640;
@@ -58,7 +55,7 @@ section{
 
 section h2, 
 .artigos article{
-    margin-bottom: ;
+    margin-bottom:16px;
 }
 
 .artigos article {
@@ -115,3 +112,18 @@ section h2{
     background-color: rgb(219, 152, 19);
 }
 
+#tecnologia{
+    background-color: rgba(49, 51, 214, 0.1)
+}
+
+#tecnologia .artigos article a{
+    background-color: rgba(8, 0, 255, 0.961)
+}
+
+#Entreterimento{
+    background-color: rgb(226, 156, 207)
+}
+
+#Entreterimento .artigos article a{
+    background-color: rgb(244, 0, 187);
+}
